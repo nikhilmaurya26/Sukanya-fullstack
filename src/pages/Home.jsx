@@ -77,7 +77,7 @@ const Home = () => {
                             Where timeless elegance meets contemporary style. Discover curated collections
                             of bespoke fashion pieces that celebrate individuality and sophistication.
                             Our boutique offers personalized styling experiences to help you create your
-                            perfect wardrobe.
+                            perfect wardrobes.
                         </motion.div>
                         <motion.div {...fadeAnimation}>
                             <CustomButton
