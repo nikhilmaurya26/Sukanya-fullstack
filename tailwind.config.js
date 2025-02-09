@@ -1,22 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {},
-    },
-    plugins: {
-      'postcss-preset-mantine': {},
-      'postcss-simple-vars': {
-        variables: {
-          'mantine-breakpoint-xs': '36em',
-          'mantine-breakpoint-sm': '48em',
-          'mantine-breakpoint-md': '62em',
-          'mantine-breakpoint-lg': '75em',
-          'mantine-breakpoint-xl': '88em',
-        },
-      },
-    },
-  }
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [], // This should be an empty array, not an object
+}
