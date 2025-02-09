@@ -18,7 +18,7 @@ export const slideAnimation = (direction) => {
     exit: {
       x: direction === "left" ? -100 : direction === "right" ? 100 : 0,
       y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-      transition: { ...transition, delay: 0 }
+      transition: { ...transition, delay: 0.5 }
     }
   };
 };
@@ -26,7 +26,7 @@ export const slideAnimation = (direction) => {
 export const fadeAnimation = {
   initial: {
     opacity: 0,
-    transition: { ...transition, delay: 0.5 }
+    transition: { ...transition, delay: 0.7 }
   },
   animate: {
     opacity: 1,
@@ -85,9 +85,9 @@ export const headTextAnimation = (direction) => {
         transition: { ...transition, delay: 0 }
       },
       exit: {
-        x: direction === "left" ? -100 : direction === "right" ? 100 : 0,
+        x: direction === "left" ? 100 : direction === "right" ? 100 : 0,
         y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-        transition: { ...transition, delay: 0 }
+        transition: { ...transition, delay: 0.5 }
       }
   }
 };
